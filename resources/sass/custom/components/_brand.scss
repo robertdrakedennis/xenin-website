@@ -1,0 +1,103 @@
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+#logo{
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+
+
+.brand{
+
+  .pricing{
+    border: 1.25px  rgba(153,170,181,.5) solid;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,.0);
+    transition: all .15s ease-out;
+    &:hover{
+      border:0;
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+      transition: all.15s ease-out;
+      -webkit-box-shadow: 0 9px 30px 1px rgba(153,170,181,.5);
+      box-shadow: 0 9px 30px 1px rgba(153,170,181,.5);
+    }
+  }
+
+
+  @media (min-width: 320px) {
+    .w-50 {
+      width: initial !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .w-50 {
+      width: 50% !important;
+    }
+  }
+
+  .card-img{
+    mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
+    mask: linear-gradient(0deg,transparent,#000);
+    -webkit-mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
+    -webkit-mask: linear-gradient(0deg, transparent, #000);
+  }
+
+  .card-img-top{
+    opacity: 0.5;
+    mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
+    mask: linear-gradient(0deg,transparent,#000);
+    -webkit-mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
+    -webkit-mask: linear-gradient(0deg, transparent, #000);
+  }
+
+  .text{
+    font-size: 4.25rem;
+    color: hsla(0%, 0%, 100%, 0.8) !important;
+  }
+
+  .title-text{
+    font-size: 3.25rem;
+    color: hsla(0%, 0%, 100%, 0.8) !important;
+  }
+  .sub-text{
+    color: hsla(0%, 0%, 100%, 0.6) !important;
+  }
+
+
+  .background{
+    height: 100vh;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    > *{
+      bottom: 0;
+      overflow: visible;
+      position: absolute;
+    }
+    .stars{
+      bottom: auto;
+      //left: 50%;
+      //margin-left: -720px;
+      top: 0;
+    }
+  }
+}
+
+
+

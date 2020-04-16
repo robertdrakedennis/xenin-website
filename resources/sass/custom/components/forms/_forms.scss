@@ -1,0 +1,25 @@
+// Remove Focus Boxes
+select:focus {
+  outline: $brand-primary;
+}
+
+button:focus {
+  outline: none;
+  background-color: $brand-primary;
+}
+
+label {
+  font-size: .8rem;
+  color: $gray-400;
+}
+
+.no-select {
+  user-select: none;
+}
+
+@import 'input-fields';
+@import 'radio-buttons';
+@import 'checkboxes';
+@import 'switches';
+@import 'file-input';
+@import 'range';

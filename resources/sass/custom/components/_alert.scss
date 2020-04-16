@@ -1,0 +1,27 @@
+.alert-primary{
+  color: hsla(0,0%,100%,.9);
+  background: rgba(114,137,218,.3);
+  border: 2px solid rgba(114,137,218,.75);
+}
+
+.alert-danger{
+  color: hsla(0,0%,100%,.9);
+  background-color: rgba(240,71,71,.3);
+  border-color: #f04747;
+}
+
+.alert-warning{
+  color: hsla(0,0%,100%,.9);
+  background: rgba(250,166,26,.3);
+  border: 2px solid rgba(250,166,26,.75);
+}
+
+.alert-success{
+  color: hsla(0,0%,100%,.9);
+  background-color: rgba(67,181,129,.3);
+  border-color: #43b581;
+}
+
+.alert-link{
+  color: hsla(0,0%,100%,1) !important;
+}

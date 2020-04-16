@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  .w-sm-45{
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-sm-45{
+    width: inherit;
+  }
+}

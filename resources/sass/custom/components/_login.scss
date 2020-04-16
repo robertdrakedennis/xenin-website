@@ -1,0 +1,13 @@
+.login-button{
+  border: 2px solid hsla(0, 0%, 100%, .7);
+  padding: 5px 17px 7px;
+  border-radius: 50vh;
+  color: hsla(0, 0%, 100%, .7);
+}
+
+.login-button:hover{
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  padding: 5px 17px 7px;
+  border-radius: 50vh;
+  color: hsla(0, 0%, 100%, 1);
+}
